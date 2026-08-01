@@ -1,7 +1,7 @@
 cask "hive" do
   # Apple Silicon only — the desktop app ships an aarch64 DMG (no Intel build).
-  version "1.3.1"
-  sha256 "88c4a37fe1edf0419e91c77a2c53c981725e115b3a8e3af018e69396060462f7"
+  version "1.4.0"
+  sha256 "4709f107095ab1cd071fdbd1e1dbd1dce9771781e3d64d36945d7afba6d18f4d"
 
   url "https://github.com/honeyhive-ai/hive/releases/download/v#{version}/Hive_#{version}_aarch64.dmg",
       verified: "github.com/honeyhive-ai/hive/"
