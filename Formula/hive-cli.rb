@@ -1,28 +1,28 @@
 class HiveCli < Formula
   desc "Headless Hive client + agent daemon — connect a workspace, sync E2EE events, run agents"
   homepage "https://github.com/honeyhive-ai/hive"
-  version "1.12.0"
+  version "1.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/honeyhive-ai/hive/releases/download/v1.12.0/hive-aarch64-apple-darwin"
-      sha256 "287bfa401e036e8e9104a40299a589c57d7109a5401380a627e7aad7f074bdfa"
+      url "https://github.com/honeyhive-ai/hive/releases/download/v1.13.0/hive-aarch64-apple-darwin"
+      sha256 "5e87325f4032226aee351fa04181effad153a3e10d72b589d4f481e9dd81039e"
     end
     on_intel do
-      url "https://github.com/honeyhive-ai/hive/releases/download/v1.12.0/hive-x86_64-apple-darwin"
-      sha256 "3653bc07722ddee7c31c995404b2356cbfcd837164cacc0d02ed4edf0b507138"
+      url "https://github.com/honeyhive-ai/hive/releases/download/v1.13.0/hive-x86_64-apple-darwin"
+      sha256 "fe0aa87670032b613101a7be71fb0da05f20778b999b267fbdc05eac2835ce85"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/honeyhive-ai/hive/releases/download/v1.12.0/hive-aarch64-unknown-linux-musl"
-      sha256 "a5f718ccb204a30dd77d578035fc31626213fd426719f8b4343dcc77fd8d68f9"
+      url "https://github.com/honeyhive-ai/hive/releases/download/v1.13.0/hive-aarch64-unknown-linux-musl"
+      sha256 "9d1c65230222cd1c363625ccd192b2f6cb03dc8d7cecf1888de903b25f5b6467"
     end
     on_intel do
-      url "https://github.com/honeyhive-ai/hive/releases/download/v1.12.0/hive-x86_64-unknown-linux-musl"
-      sha256 "786a60f9c843da3c7d9cc03552685b8d320b9afc3e593821e3bbbce76a0a0a7a"
+      url "https://github.com/honeyhive-ai/hive/releases/download/v1.13.0/hive-x86_64-unknown-linux-musl"
+      sha256 "6962ef1987adb5747c7dbc87d1411ae751c23df0a43469a5664a799e462f7b39"
     end
   end
 
